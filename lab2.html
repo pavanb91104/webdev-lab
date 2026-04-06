@@ -1,0 +1,92 @@
+<!DOCTYPE>
+<html>
+<head>
+<title> Student feedback form </title>
+</head>
+<body style="background-color:lightblue; font-family:Arial, sans-serif; margin:0;">
+
+
+
+<form action="#" method="post"
+style="background:#fff; max-width:600px; margin:20px auto; padding:20px; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.2);">
+<h1 style="text-align:center; color:black;"><b>STUDENT FEEDBACK FORM</b></h1>
+<label for="name" Style="font-weight:bold;"> Full Name:</label><br>
+<input type = "text" id="name" name="name" required Style="width:100%; Padding:8px;margin:5px 0 15px 0;"><br>
+<label for="lname" Style="font-weight:bold;"> last Name:</label><br>
+<input type = "text" id="lname" name="lname" required Style="width:100%; Padding:8px;margin:5px 0 15px 0;"><br>
+<label for="EMAIL" Style="font-weight:bold;"> e-MAIL</label><br>
+<input type = "text" type="EMAIL"  required Style="width:100%; Padding:8px;margin:5px 0 15px 0;"><br>
+<label for="usn" Style="font-weight:bold;"> USN(university seat number)</label><br>
+<input type = "text" type="usn"  required Style="width:100%; Padding:8px;margin:5px 0 15px 0;"><br>
+
+
+<input type="radio" id = "male" name="gender" value="male" >
+<label for="male" >MALE</label>
+
+<input type="radio" id = "female" name="gender" value="female" >
+<label for="female" >FEMALE</label>
+
+<input type="radio" id = "others" name="gender" value="others" >
+<label for="others" >OTHERS</label><br><br>
+
+<label for="course" Style="font-weight:bold;"> SELECT YOUR COURSE</label><br>
+<select id = "course" name="course" required Style="width:100%; Padding:8px;margin:5px 0 15px 0;"><br>
+
+<option value="bca">BCA</option>
+<option value="bba">BBA</option>
+<option value="bsc">B.Sc</option>
+<option value="msc">M.Sc</option>
+<option value="mba">MBA</option>
+
+
+</select><br>
+<label Style="font-weight:bold;"> FACILITIES YOU LIKED:</label><br>
+
+
+<input type = "checkbox" id="library" name="facilities[]" value="library">
+<label for="library">LIBRARY</label><br>
+<input type = "checkbox" id="sports" name="facilities[]" value="sports">
+<label for="sports">SPORTS</label><br>
+<input type = "checkbox" id="lab" name="facilities[]" value="lab">
+<label for="lab">LAB</label><br>
+<input type = "checkbox" id="teaching" name="facilities[]" value="teaching">
+<label for="teaching">TEACHING</label><br>
+<input type = "checkbox" id="parking" name="facilities[]" value="parking">
+<label for="parking">PARKING</label><br>
+
+
+<label>Additional Comments:</label><br>
+<textarea rows="5" cols="50" placeholder="Enter your comments here..."
+style="width:100%; padding:8px;"></textarea><br><br>
+
+<input type = "checkbox" id="accept" name="fa[]" value="accept">
+<label for="accept">SEND ME A COPY OF FEEDBACK</label><br>
+
+
+<div style="display:flex; justify-content:center;">
+    <input type="submit" value="Submit" id="btn">
+</div>
+</FORM>
+<style>
+#btn {
+    background-color:#007BFF;
+    color:white;
+    padding:12px 25px;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+     
+}
+#btn:hover {
+    background-color:#0056b3;
+}
+</style>
+
+
+</body>
+</html>
+
+
+
+
