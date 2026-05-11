@@ -1,0 +1,71 @@
+body {
+  font-family: sans-serif;
+  background: #eef2f7;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+.header h1{
+
+  font-size:50px;
+  font-weight:900;
+  text-transform:uppercase;
+  text-align:center
+
+  background-image:url('https://media.istockphoto.com/id/543183018/photo/sunrise-on-mount-kanchenjugha-at-dawn-sikkim.jpg?s=612x612&w=0&k=20&c=ONnlaZ9ny-HD9P3li-5t0tzpm0dHdahYRdmN_WxrMsc=');
+
+  background-repeat:repeat;
+  background-size:300px;
+
+  background-position:center;
+
+  color:transparent;
+
+  -webkit-background-clip:text;
+  background-clip:text;
+
+  -webkit-text-fill-color:transparent;
+}
+
+section {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Font Styles */
+.serif { font-family: 'Times New Roman', serif; }
+.sans { font-family: Arial, sans-serif; }
+.mono { font-family: 'Courier New', monospace; }
+.cursive { font-family: 'Brush Script MT', cursive; }
+
+/* Background Repeat */
+.bg {
+  height: 200px;
+  margin: 10px 0;
+  border: 2px solid #ccc;
+}
+.repeat {
+  background: url('https://www.insidethetravellab.com/wp-content/uploads/2020/04/India-Karnataka-Mysore-Palace-Interior-Gilded-Hall-scaled.jpg') repeat;
+  background-size:68px;
+}
+.no-repeat {
+  background: url('https://cms.discoveryworldtrekking.com/media/4788/mt8848.webp') no-repeat center/contain;
+}
+
+/* Link Styles */
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #3498db;
+}
+a:visited { color: #8e44ad; }
+a:hover { color: #e74c3c; text-decoration: underline; }
+a:active { color: #2ecc71; }
+
+/* Visibility */
+.visible { visibility: visible; }
+.hidden { visibility: hidden; }
